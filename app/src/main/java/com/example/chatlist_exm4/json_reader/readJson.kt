@@ -3,6 +3,7 @@ package com.example.chatlist_exm4.json_reader
 import android.content.Context
 import java.io.IOException
 
+
 fun getJsonDataFromAsset(context: Context, fileName: String): String? {
     val jsonString: String
     try {
